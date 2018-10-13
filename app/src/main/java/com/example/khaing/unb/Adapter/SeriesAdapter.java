@@ -55,7 +55,7 @@ public class SeriesAdapter extends BaseRecyclerAdapter<BaseViewHolder,BaseVO>{
 
     @Override
     public int getItemCount() {
-        return 4;
+        return 3;
     }
 
     @Override

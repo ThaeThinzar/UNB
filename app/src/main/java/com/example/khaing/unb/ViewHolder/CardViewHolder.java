@@ -44,17 +44,22 @@ public class CardViewHolder extends BaseViewHolder{
 
     public void setAlbumData(int position){
         if(position==0){
-            bgImage.setImageResource(R.drawable.boyhood);
-            header.setText("BoyHood");
-            time.setText("6 items");
+            bgImage.setImageResource(R.drawable.squareone);
+            header.setText("Square One");
+            time.setText("2 items");
         }else  if(position==1){
-            bgImage.setImageResource(R.drawable.unb_group);
-            header.setText("All Day");
-            time.setText("1 items");
+            bgImage.setImageResource(R.drawable.squaretwo);
+            header.setText("Square Two");
+            time.setText("2 items");
+        }
+        else if (position==2){
+            header.setText("As if it's your last");
+            bgImage.setImageResource(R.drawable.bpcover1);
+            time.setText("1 item");
         }
         else {
-            bgImage.setImageResource(R.drawable.blackheart);
-            header.setText("Black Heart");
+            bgImage.setImageResource(R.drawable.squareup);
+            header.setText("Square Up");
             time.setText("6 items");
         }
 

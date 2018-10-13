@@ -32,21 +32,30 @@ public class AlbumSongListViewHolder extends BaseViewHolder {
 
     }
 
-    public void setSongNames(int position,String [] boyhood,String [] blackheart){
-        if(sName.equals("BoyHood")){
-            for(int i=0;i<boyhood.length;i++){
+    public void setSongNames(int position,String [] SquareOne,String [] SquareTwo,String[] Youlast,String[] SquareUp){
+        if(sName.equals("Square One")){
+            for(int i=0;i<SquareOne.length;i++){
                 if(position==i){
-                    songName.setText(boyhood[i].toString());
-                    artist.setText("UNB");
+                    songName.setText(SquareOne[i].toString());
+                    artist.setText("BlackPink");
                     Glide.with(itemView).load("https://i0.wp.com/www.kpopscene.com/wp-content/uploads/2018/04/unb-boyhood-1st-mini-album.jpg?w=720").into(albumImg);
                 }
             }
         }
-        else if(sName.equals("Black Heart")){
-            for(int i=0;i<blackheart.length;i++){
+        else if(sName.equals("Square Two")){
+            for(int i=0;i<SquareTwo.length;i++){
                 if(position==i){
-                    songName.setText(blackheart[i].toString());
-                    artist.setText("UNB");
+                    songName.setText(SquareTwo[i].toString());
+                    artist.setText("BlackPink");
+                    Glide.with(itemView).load("https://www.allkpop.com/upload/2018/07/af_org/04153857/unb.jpg").into(albumImg);
+                }
+            }
+        }
+        else if(sName.equals("As if it's your last")){
+            for(int i=0;i<Youlast.length;i++){
+                if(position==i){
+                    songName.setText(Youlast[i].toString());
+                    artist.setText("BlackPink");
                     Glide.with(itemView).load("https://www.allkpop.com/upload/2018/07/af_org/04153857/unb.jpg").into(albumImg);
                 }
             }
@@ -54,7 +63,7 @@ public class AlbumSongListViewHolder extends BaseViewHolder {
         else {
 
                     songName.setText("All Day");
-                    artist.setText("UNB");
+                    artist.setText("BlackPink");
                     Glide.with(itemView).load("https://i0.wp.com/www.kpopscene.com/wp-content/uploads/2018/04/unb-boyhood-1st-mini-album.jpg?w=720").into(albumImg);
                 }
 

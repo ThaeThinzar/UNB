@@ -39,7 +39,7 @@ public class CurrentViewHolder extends BaseViewHolder {
 
     @Override
     public void setData(Object data) {
-        title.setText("UNB for UNME");
+        title.setText("BLink");
         duration.setText("");
     }
 

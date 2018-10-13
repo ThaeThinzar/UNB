@@ -34,19 +34,24 @@ public class MemberViewHolder extends BaseViewHolder{
 //    ItemClickListener itemClickListener;
 //    Context context;
 
-    String []profileUrls={"https://kpopinfo114.files.wordpress.com/2018/07/unb-black-heart-feel-dog.jpg",
-                            "https://kpopinfo114.files.wordpress.com/2018/07/unb-black-heart-euijin.jpg",
-                            "https://kpopinfo114.files.wordpress.com/2018/07/unb-black-heart-daewon.jpg",
-                            "https://kpopinfo114.files.wordpress.com/2018/07/unb-black-heart-marco.jpg",
-                            "https://kpopinfo114.files.wordpress.com/2018/07/unb-black-heart-hojung.jpg",
-                            "https://kpopinfo114.files.wordpress.com/2018/07/unb-black-heart-hansol.jpg",
-                            "https://kpopinfo114.files.wordpress.com/2018/07/unb-black-heart-jun.jpg",
-                            "https://kpopinfo114.files.wordpress.com/2018/07/unb-black-heart-chan.jpg",
-                            "https://kpopinfo114.files.wordpress.com/2018/07/unb-black-heart-kijung.jpg"};
+//    String []profileUrls={"https://kpohttps://kpopinfo114.files.wordpress.com/2018/06/blackpink-square-up-jennie.jpgpinfo114.files.wordpress.com/2018/07/unb-black-heart-feel-dog.jpg",
+//                            "https://kpopinfo114.files.wordpress.com/2018/07/unb-black-heart-euijin.jpg",
+//                            "https://kpopinfo114.files.wordpress.com/2018/07/unb-black-heart-daewon.jpg",
+//                            "https://kpopinfo114.files.wordpress.com/2018/07/unb-black-heart-marco.jpg",
+//                            "https://kpopinfo114.files.wordpress.com/2018/07/unb-black-heart-hojung.jpg",
+//                            "https://kpopinfo114.files.wordpress.com/2018/07/unb-black-heart-hansol.jpg",
+//                            "https://kpopinfo114.files.wordpress.com/2018/07/unb-black-heart-jun.jpg",
+//                            "https://kpopinfo114.files.wordpress.com/2018/07/unb-black-heart-chan.jpg",
+//                            "https://kpopinfo114.files.wordpress.com/2018/07/unb-black-heart-kijung.jpg"};
 
-    String []memName={"Feel dog","Eui Jin","Dae won","Marco","Ho jung","Han sol","Jun","Chan","Ki joon"};
-    String []memPosition={"Leader","Main Dancer","Main Vocalist","Lead Rapper","Visual","Lead Dancer","Main Rapper","Main Vocalist","Maknae"};
-
+//    String []memName={"Feel dog","Eui Jin","Dae won","Marco","Ho jung","Han sol","Jun","Chan","Ki joon"};
+//    String []memPosition={"Leader","Main Dancer","Main Vocalist","Lead Rapper","Visual","Lead Dancer","Main Rapper","Main Vocalist","Maknae"};
+    String []profileUrls={"https://kpopinfo114.files.wordpress.com/2018/06/blackpink-square-up-lisa.jpg",
+                            "https://kpopinfo114.files.wordpress.com/2018/06/blackpink-square-up-jisoo.jpg",
+                            "https://kpopinfo114.files.wordpress.com/2018/06/blackpink-square-up-jennie.jpg",
+                            "https://kpopinfo114.files.wordpress.com/2018/06/blackpink-square-up-rose.jpg"};
+    String []memName={"Lisa","Jisoo","Jenny","Rose"};
+    String []memPosition={"Leader","Vocal","Rapper","Main Dancer"};
 
 
     public MemberViewHolder(View view) {

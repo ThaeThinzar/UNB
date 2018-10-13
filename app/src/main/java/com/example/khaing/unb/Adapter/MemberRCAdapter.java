@@ -48,6 +48,6 @@ public class MemberRCAdapter extends BaseRecyclerAdapter<MemberViewHolder,BaseMo
 
     @Override
     public int getItemCount() {
-        return 9;
+        return 4;
     }
 }

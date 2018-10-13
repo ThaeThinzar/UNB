@@ -18,8 +18,12 @@ public class AlbmSongListAdapter extends BaseRecyclerAdapter<AlbumSongListViewHo
     TextView textView;
     String songName;
 
-    String [] BoyHood={"Feeling","Only one","Rebooting","Ride with me","Only one Inst.","Feeling Inst."};
-    String [] Blackheart={"Black Heart","Moon Light","After the rain","Dancing with devil","Black heart Inst."};
+//    String [] BoyHood={"Feeling","Only one","Rebooting","Ride with me","Only one Inst.","Feeling Inst."};
+//    String [] Blackheart={"Black Heart","Moon Light","After the rain","Dancing with devil","Black heart Inst."};
+      String [] SquareOne={"Whistle","Boombayah"};
+      String [] SquareTwo={"Playing with fire","Stay"};
+      String [] Yourlast={"As if it's your last"};
+      String [] Squareup={"don't flirl","ForeverYoung","Duu Du Duu"};
 
     public AlbmSongListAdapter(Context context,String songName) {
         super(context);
@@ -36,7 +40,7 @@ public class AlbmSongListAdapter extends BaseRecyclerAdapter<AlbumSongListViewHo
     @Override
     public void onBindViewHolder(@NonNull AlbumSongListViewHolder holder, int position) {
         holder.setData(null);
-        holder.setSongNames(position,BoyHood,Blackheart);
+        holder.setSongNames(position,SquareOne,SquareTwo,Yourlast,Squareup);
 
 
     }
@@ -44,10 +48,13 @@ public class AlbmSongListAdapter extends BaseRecyclerAdapter<AlbumSongListViewHo
     @Override
     public int getItemCount() {
         int count = 0;
-      if(songName.equals("BoyHood")){
-        count=BoyHood.length;
-      }else if(songName.equals("Black Heart")){
-          count= Blackheart.length;
+      if(songName.equals("Square One")){
+        count=SquareOne.length;
+      }else if(songName.equals("Square Two")){
+          count= SquareTwo.length;
+      }
+      else if(songName.equals("As if it's your last")){
+          count=Yourlast.length;
       }
       else {
           count=count+1;
