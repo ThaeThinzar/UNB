@@ -14,12 +14,15 @@ import com.example.khaing.unb.ViewHolder.CardViewHolder;
 import com.example.khaing.unb.ViewHolder.CategoryViewHolder;
 import com.example.khaing.unb.controller.ItemClickListener;
 
+import java.util.List;
+
 /**
  * Created by Khaing on 6/30/2018.
  */
 
 public class CategoryAdapter extends BaseRecyclerAdapter<CardViewHolder,BaseModel> {
     ItemClickListener itemClickListener;
+    List<String> albums;
 
     public CategoryAdapter(Context context,ItemClickListener itemClickListener) {
         super(context);
@@ -41,7 +44,7 @@ public class CategoryAdapter extends BaseRecyclerAdapter<CardViewHolder,BaseMode
 
     @Override
     public int getItemCount() {
-        return 3;
+        return 4;
     }
 
 

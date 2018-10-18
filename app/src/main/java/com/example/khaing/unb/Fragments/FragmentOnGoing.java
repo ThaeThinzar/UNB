@@ -47,7 +47,12 @@ public class FragmentOnGoing extends Fragment {
 
     private void setUp() {
         rcOngoing.setLayoutManager(new LinearLayoutManager(getContext(),LinearLayoutManager.VERTICAL,false));
-
-
+        ongoingVideos.add(new OngoingVideos("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/XfCxy8vUKHs\" frameborder=\"0\" allowfullscreen></iframe>"));
+        ongoingVideos.add(new OngoingVideos("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/WBdQnhwO4gQ\" frameborder=\"0\" allowfullscreen></iframe>"));
+        ongoingVideos.add(new OngoingVideos("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/5hwepTxNKtE\" frameborder=\"0\" allowfullscreen></iframe>"));
+        ongoingVideos.add(new OngoingVideos("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/89kTb73csYg\" frameborder=\"0\" allowfullscreen></iframe>"));
+        ongoingVideos.add(new OngoingVideos("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/s5nn7R33AMg\" frameborder=\"0\" allowfullscreen></iframe>"));
+        OngoingVideoAdapter adapter=new OngoingVideoAdapter(ongoingVideos);
+        rcOngoing.setAdapter(adapter);
     }
 }

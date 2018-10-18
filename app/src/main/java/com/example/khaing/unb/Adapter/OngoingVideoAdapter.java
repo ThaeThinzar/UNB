@@ -37,7 +37,7 @@ public class OngoingVideoAdapter extends RecyclerView.Adapter<OngoingVideoAdapte
 
     @Override
     public int getItemCount() {
-        return 0;
+        return ongoingVideosList.size();
     }
 
 

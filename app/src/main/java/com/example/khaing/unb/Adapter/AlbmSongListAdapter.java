@@ -53,8 +53,8 @@ public class AlbmSongListAdapter extends BaseRecyclerAdapter<AlbumSongListViewHo
       }else if(songName.equals("Square Two")){
           count= SquareTwo.length;
       }
-      else if(songName.equals("As if it's your last")){
-          count=Yourlast.length;
+      else if(songName.equals("Square Up")){
+          count=Squareup.length;
       }
       else {
           count=count+1;
